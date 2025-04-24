@@ -1,34 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunda Digital Mail - 10 Menit Email Gratis</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temp Mail by Bro</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Sunda Digital Mail</h1>
-            <p>Email sementara Anda selama 10 menit</p>
-        </div>
+  <div class="container">
+    <h1>Temp Mail by Bro 😎</h1>
+    <p>Email: <span id="email-address">Memuat...</span></p>
+    <p>Username: <span id="username-only">Memuat...</span></p>
+    <p id="timer">Menunggu...</p>
 
-        <div class="email-section">
-            <h2>Email Sementara Anda</h2>
-            <div id="email-address" class="email-box"></div>
-            <button id="generate-btn" class="btn">Hasilkan Email</button>
-            <p id="timer" class="timer">Expires in: 10:00</p>
-        </div>
+    <h2>Inbox</h2>
+    <ul id="inbox-list"></ul>
+  </div>
 
-        <div class="inbox-section">
-            <h2>Kontak Masuk</h2>
-            <ul id="inbox-list">
-                <!-- Messages will appear here -->
-            </ul>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
